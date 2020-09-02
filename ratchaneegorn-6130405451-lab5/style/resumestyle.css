@@ -1,0 +1,110 @@
+h1, h2, h3, h4 {
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-align: center;
+    border: 2px solid rgba(253, 250, 43, 0.6);
+    background: rgba(115, 255, 72, 0.3);
+    color: rgba(14, 27, 204, 0.6);
+    box-shadow: 1px 1px 2px rgba(0,0,200,0.4);
+    border-radius: 10px;
+    padding: 3px 10px;
+    display: inline-block;
+    font-size: 28px;
+}
+h5 {
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 25px;
+    border: 2px solid rgba(253, 250, 43, 0.6);
+    background: rgba(255, 30, 180, 0.3);
+    color: rgba(2, 15, 129, 0.6);
+    box-shadow: 1px 1px 2px rgba(0,0,200,0.4);
+    border-radius: 10px;
+    padding: 3px 10px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+#proim {
+    border:none;
+    border-radius: 60px;
+}
+#name, #birth {
+    font-family: "Lucida Console", Monaco, monospace;
+    letter-spacing: 1px;
+    text-align: center;
+    font-size: 25px;
+    
+}
+div {
+    font-family: "helvetica neue", "Lucida Console", Monaco, monospace;
+    text-align: center;
+    background-color: #ffdfdf;
+}
+table {
+    border-collapse: separate;
+    border-spacing: 5px 20px 5px 20px;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
+body {
+    width: 850px;
+    margin: 0 auto;
+    padding: 0;
+    border: 10px solid #8675a9;
+    background-image: url('bg.jpg');
+    background-size: 100%;
+}
+
+#morein {
+    font-family: "helvetica neue", "Lucida Console", Monaco, monospace;
+    letter-spacing: 1px;
+    text-align: center;
+    font-size: 18px;
+}
+
+#inemail {
+        text-align: center;
+        padding: 10px 60px 10px 60px;
+        border: none;
+        border-radius: 20px;
+        box-shadow: rgba(255, 30, 180, 0.3);
+        background-color: white;
+
+}
+
+ul {
+    text-align: center;
+    list-style-type: none;
+}
+#programing, #design {
+    width: 30%;
+    padding: 10px 30px 10px 30px;
+    border: 2px solid rgba(253, 250, 43, 0.6);
+    background: rgba(255, 30, 180, 0.3);
+    color: rgba(2, 15, 129, 0.6);
+    box-shadow: 1px 1px 2px rgba(0,0,200,0.4);
+    text-align: center;
+    border-radius: 10px;
+}
+td{
+    margin-right: auto;
+    margin-left: auto;
+    width: 20px;
+}
+#lg {
+    margin-right: auto;
+    margin-left: auto;
+    width: 30%;
+    padding: 10px 30px 10px 30px;
+    border: 2px solid rgba(253, 250, 43, 0.6);
+    border-radius: 10px;
+    background: rgba(210, 44, 252, 0.3);
+    color: rgba(2, 15, 129, 0.6);
+    box-shadow: 1px 1px 2px rgba(0,0,200,0.4);
+}
