@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Shopping list example</title>
+    <style>
+      li {
+        margin-bottom: 10px;
+      }
+      li button {
+        font-size: 8px;
+        margin-left: 20px;
+        color: #666;
+      }
+    </style>
+  </head>
+  <body>
+
+    <h1>My shopping list</h1>
+
+    <div>
+      <label for="item">Enter a new item:</label>
+      <input type="text" name="item" id="item">
+      <button id="add">Add item</button>
+     
+    </div>
+    <ul id="list"></ul>
+    <p></p>
+
+    <script>
+        document.getElementById("add").onclick = function() {
+            var text = document.getElementById("item").value;
+            document.getElementById("item").value = "";
+            var node = document.createElement("li");
+            node.innerHTML = ` ${text} <button>delete</button>` 
+            document.getElementById("list").appendChild(node);
+            var show = document.getElementById("showtext");
+            checklist();
+            node.querySelector("button").addEventListener("click",function(e) {
+            e.target.parentElement.remove()
+            checklist();
+            
+            })
+        }
+        function checklist() {
+          var numberlist = document.querySelectorAll("li").length;
+          if(numberlist == 1) {
+            document.querySelector("p").textContent = ` The list has ${numberlist} item` ;
+          }else{
+            document.querySelector("p").textContent = ` The list has ${numberlist} items` ;
+          }
+          
+        }
+      
+          
+        
+           
+           
+           
+
+        
+    </script>
+  </body>
+</html>
