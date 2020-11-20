@@ -1,0 +1,6 @@
+html
+    head
+        title=name
+    body
+        hi=name
+        a(href = url, target = "_blank") #{name}

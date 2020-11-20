@@ -1,0 +1,23 @@
+html    
+    head
+        title Form Tester
+    body
+        form(action = "/", method = "POST")
+            table
+                tr
+                    td 
+                        label(for = "name") Name:
+                    td 
+                        input(name = "name" value = "Manee")
+                tr
+                    td
+                        label(for = "company") Internship company:
+                    td
+                        input(name = "company" value = "Your internship company")
+                tr
+                    td
+                        label(for = "skills") Skill:
+                    td
+                        input(name = "skill" value = "HTML, CSS")
+            br
+            button(type = "submit") Submit
